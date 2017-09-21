@@ -10,11 +10,12 @@
 		8E3D7AD31F73978E0077F748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7AD21F73978E0077F748 /* main.m */; };
 		8E3D7AD61F73978E0077F748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7AD51F73978E0077F748 /* AppDelegate.m */; };
 		8E3D7AD91F73978E0077F748 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7AD81F73978E0077F748 /* ViewController.m */; };
-		8E3D7ADC1F73978E0077F748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D7ADA1F73978E0077F748 /* Main.storyboard */; };
 		8E3D7ADE1F73978E0077F748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D7ADD1F73978E0077F748 /* Assets.xcassets */; };
 		8E3D7AE11F73978E0077F748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D7ADF1F73978E0077F748 /* LaunchScreen.storyboard */; };
 		8E3D7AEC1F73978E0077F748 /* YYRedPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7AEB1F73978E0077F748 /* YYRedPointTests.m */; };
 		8E3D7AF71F73978E0077F748 /* YYRedPointUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7AF61F73978E0077F748 /* YYRedPointUITests.m */; };
+		8E3D7B061F7397CC0077F748 /* YYRedPointTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7B051F7397CC0077F748 /* YYRedPointTool.m */; };
+		8E3D7B111F739C8C0077F748 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7B101F739C8C0077F748 /* SubViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 		8E3D7AD51F73978E0077F748 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8E3D7AD71F73978E0077F748 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8E3D7AD81F73978E0077F748 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8E3D7ADB1F73978E0077F748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E3D7ADD1F73978E0077F748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E3D7AE01F73978E0077F748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E3D7AE21F73978E0077F748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,10 @@
 		8E3D7AF21F73978E0077F748 /* YYRedPointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYRedPointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3D7AF61F73978E0077F748 /* YYRedPointUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYRedPointUITests.m; sourceTree = "<group>"; };
 		8E3D7AF81F73978E0077F748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3D7B041F7397CC0077F748 /* YYRedPointTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYRedPointTool.h; sourceTree = "<group>"; };
+		8E3D7B051F7397CC0077F748 /* YYRedPointTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYRedPointTool.m; sourceTree = "<group>"; };
+		8E3D7B0F1F739C8C0077F748 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		8E3D7B101F739C8C0077F748 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +109,10 @@
 				8E3D7AD51F73978E0077F748 /* AppDelegate.m */,
 				8E3D7AD71F73978E0077F748 /* ViewController.h */,
 				8E3D7AD81F73978E0077F748 /* ViewController.m */,
-				8E3D7ADA1F73978E0077F748 /* Main.storyboard */,
+				8E3D7B0F1F739C8C0077F748 /* SubViewController.h */,
+				8E3D7B101F739C8C0077F748 /* SubViewController.m */,
+				8E3D7B041F7397CC0077F748 /* YYRedPointTool.h */,
+				8E3D7B051F7397CC0077F748 /* YYRedPointTool.m */,
 				8E3D7ADD1F73978E0077F748 /* Assets.xcassets */,
 				8E3D7ADF1F73978E0077F748 /* LaunchScreen.storyboard */,
 				8E3D7AE21F73978E0077F748 /* Info.plist */,
@@ -251,7 +258,6 @@
 			files = (
 				8E3D7AE11F73978E0077F748 /* LaunchScreen.storyboard in Resources */,
 				8E3D7ADE1F73978E0077F748 /* Assets.xcassets in Resources */,
-				8E3D7ADC1F73978E0077F748 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3D7B111F739C8C0077F748 /* SubViewController.m in Sources */,
+				8E3D7B061F7397CC0077F748 /* YYRedPointTool.m in Sources */,
 				8E3D7AD91F73978E0077F748 /* ViewController.m in Sources */,
 				8E3D7AD61F73978E0077F748 /* AppDelegate.m in Sources */,
 				8E3D7AD31F73978E0077F748 /* main.m in Sources */,
@@ -314,14 +322,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8E3D7ADA1F73978E0077F748 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E3D7ADB1F73978E0077F748 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8E3D7ADF1F73978E0077F748 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
