@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E3D7AD31F73978E0077F748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7AD21F73978E0077F748 /* main.m */; };
+		8E3D7AD61F73978E0077F748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7AD51F73978E0077F748 /* AppDelegate.m */; };
+		8E3D7AD91F73978E0077F748 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7AD81F73978E0077F748 /* ViewController.m */; };
+		8E3D7ADC1F73978E0077F748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D7ADA1F73978E0077F748 /* Main.storyboard */; };
+		8E3D7ADE1F73978E0077F748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D7ADD1F73978E0077F748 /* Assets.xcassets */; };
+		8E3D7AE11F73978E0077F748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D7ADF1F73978E0077F748 /* LaunchScreen.storyboard */; };
+		8E3D7AEC1F73978E0077F748 /* YYRedPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7AEB1F73978E0077F748 /* YYRedPointTests.m */; };
+		8E3D7AF71F73978E0077F748 /* YYRedPointUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D7AF61F73978E0077F748 /* YYRedPointUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E3D7AE81F73978E0077F748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3D7AC61F73978E0077F748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3D7ACD1F73978E0077F748;
+			remoteInfo = YYRedPoint;
+		};
+		8E3D7AF31F73978E0077F748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3D7AC61F73978E0077F748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3D7ACD1F73978E0077F748;
+			remoteInfo = YYRedPoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E3D7ACE1F73978E0077F748 /* YYRedPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYRedPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3D7AD21F73978E0077F748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E3D7AD41F73978E0077F748 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E3D7AD51F73978E0077F748 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E3D7AD71F73978E0077F748 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E3D7AD81F73978E0077F748 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E3D7ADB1F73978E0077F748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E3D7ADD1F73978E0077F748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E3D7AE01F73978E0077F748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E3D7AE21F73978E0077F748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3D7AE71F73978E0077F748 /* YYRedPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYRedPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3D7AEB1F73978E0077F748 /* YYRedPointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYRedPointTests.m; sourceTree = "<group>"; };
+		8E3D7AED1F73978E0077F748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3D7AF21F73978E0077F748 /* YYRedPointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYRedPointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3D7AF61F73978E0077F748 /* YYRedPointUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYRedPointUITests.m; sourceTree = "<group>"; };
+		8E3D7AF81F73978E0077F748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E3D7ACB1F73978E0077F748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3D7AE41F73978E0077F748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3D7AEF1F73978E0077F748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3D7AC51F73978E0077F748 = {
+			isa = PBXGroup;
+			children = (
+				8E3D7AD01F73978E0077F748 /* YYRedPoint */,
+				8E3D7AEA1F73978E0077F748 /* YYRedPointTests */,
+				8E3D7AF51F73978E0077F748 /* YYRedPointUITests */,
+				8E3D7ACF1F73978E0077F748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E3D7ACF1F73978E0077F748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E3D7ACE1F73978E0077F748 /* YYRedPoint.app */,
+				8E3D7AE71F73978E0077F748 /* YYRedPointTests.xctest */,
+				8E3D7AF21F73978E0077F748 /* YYRedPointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E3D7AD01F73978E0077F748 /* YYRedPoint */ = {
+			isa = PBXGroup;
+			children = (
+				8E3D7AD41F73978E0077F748 /* AppDelegate.h */,
+				8E3D7AD51F73978E0077F748 /* AppDelegate.m */,
+				8E3D7AD71F73978E0077F748 /* ViewController.h */,
+				8E3D7AD81F73978E0077F748 /* ViewController.m */,
+				8E3D7ADA1F73978E0077F748 /* Main.storyboard */,
+				8E3D7ADD1F73978E0077F748 /* Assets.xcassets */,
+				8E3D7ADF1F73978E0077F748 /* LaunchScreen.storyboard */,
+				8E3D7AE21F73978E0077F748 /* Info.plist */,
+				8E3D7AD11F73978E0077F748 /* Supporting Files */,
+			);
+			path = YYRedPoint;
+			sourceTree = "<group>";
+		};
+		8E3D7AD11F73978E0077F748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E3D7AD21F73978E0077F748 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E3D7AEA1F73978E0077F748 /* YYRedPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E3D7AEB1F73978E0077F748 /* YYRedPointTests.m */,
+				8E3D7AED1F73978E0077F748 /* Info.plist */,
+			);
+			path = YYRedPointTests;
+			sourceTree = "<group>";
+		};
+		8E3D7AF51F73978E0077F748 /* YYRedPointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E3D7AF61F73978E0077F748 /* YYRedPointUITests.m */,
+				8E3D7AF81F73978E0077F748 /* Info.plist */,
+			);
+			path = YYRedPointUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E3D7ACD1F73978E0077F748 /* YYRedPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3D7AFB1F73978E0077F748 /* Build configuration list for PBXNativeTarget "YYRedPoint" */;
+			buildPhases = (
+				8E3D7ACA1F73978E0077F748 /* Sources */,
+				8E3D7ACB1F73978E0077F748 /* Frameworks */,
+				8E3D7ACC1F73978E0077F748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYRedPoint;
+			productName = YYRedPoint;
+			productReference = 8E3D7ACE1F73978E0077F748 /* YYRedPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E3D7AE61F73978E0077F748 /* YYRedPointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3D7AFE1F73978E0077F748 /* Build configuration list for PBXNativeTarget "YYRedPointTests" */;
+			buildPhases = (
+				8E3D7AE31F73978E0077F748 /* Sources */,
+				8E3D7AE41F73978E0077F748 /* Frameworks */,
+				8E3D7AE51F73978E0077F748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3D7AE91F73978E0077F748 /* PBXTargetDependency */,
+			);
+			name = YYRedPointTests;
+			productName = YYRedPointTests;
+			productReference = 8E3D7AE71F73978E0077F748 /* YYRedPointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E3D7AF11F73978E0077F748 /* YYRedPointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3D7B011F73978E0077F748 /* Build configuration list for PBXNativeTarget "YYRedPointUITests" */;
+			buildPhases = (
+				8E3D7AEE1F73978E0077F748 /* Sources */,
+				8E3D7AEF1F73978E0077F748 /* Frameworks */,
+				8E3D7AF01F73978E0077F748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3D7AF41F73978E0077F748 /* PBXTargetDependency */,
+			);
+			name = YYRedPointUITests;
+			productName = YYRedPointUITests;
+			productReference = 8E3D7AF21F73978E0077F748 /* YYRedPointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E3D7AC61F73978E0077F748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Vcredict;
+				TargetAttributes = {
+					8E3D7ACD1F73978E0077F748 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YWEH5GVC2C;
+						ProvisioningStyle = Automatic;
+					};
+					8E3D7AE61F73978E0077F748 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YWEH5GVC2C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E3D7ACD1F73978E0077F748;
+					};
+					8E3D7AF11F73978E0077F748 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YWEH5GVC2C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E3D7ACD1F73978E0077F748;
+					};
+				};
+			};
+			buildConfigurationList = 8E3D7AC91F73978E0077F748 /* Build configuration list for PBXProject "YYRedPoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E3D7AC51F73978E0077F748;
+			productRefGroup = 8E3D7ACF1F73978E0077F748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E3D7ACD1F73978E0077F748 /* YYRedPoint */,
+				8E3D7AE61F73978E0077F748 /* YYRedPointTests */,
+				8E3D7AF11F73978E0077F748 /* YYRedPointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E3D7ACC1F73978E0077F748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3D7AE11F73978E0077F748 /* LaunchScreen.storyboard in Resources */,
+				8E3D7ADE1F73978E0077F748 /* Assets.xcassets in Resources */,
+				8E3D7ADC1F73978E0077F748 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3D7AE51F73978E0077F748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3D7AF01F73978E0077F748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E3D7ACA1F73978E0077F748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3D7AD91F73978E0077F748 /* ViewController.m in Sources */,
+				8E3D7AD61F73978E0077F748 /* AppDelegate.m in Sources */,
+				8E3D7AD31F73978E0077F748 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3D7AE31F73978E0077F748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3D7AEC1F73978E0077F748 /* YYRedPointTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3D7AEE1F73978E0077F748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3D7AF71F73978E0077F748 /* YYRedPointUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E3D7AE91F73978E0077F748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3D7ACD1F73978E0077F748 /* YYRedPoint */;
+			targetProxy = 8E3D7AE81F73978E0077F748 /* PBXContainerItemProxy */;
+		};
+		8E3D7AF41F73978E0077F748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3D7ACD1F73978E0077F748 /* YYRedPoint */;
+			targetProxy = 8E3D7AF31F73978E0077F748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E3D7ADA1F73978E0077F748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E3D7ADB1F73978E0077F748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E3D7ADF1F73978E0077F748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E3D7AE01F73978E0077F748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E3D7AF91F73978E0077F748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E3D7AFA1F73978E0077F748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E3D7AFC1F73978E0077F748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				INFOPLIST_FILE = YYRedPoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcredit.JieLeHua.Fast.YYRedPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E3D7AFD1F73978E0077F748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				INFOPLIST_FILE = YYRedPoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcredit.JieLeHua.Fast.YYRedPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E3D7AFF1F73978E0077F748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				INFOPLIST_FILE = YYRedPointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcredit.JieLeHua.Fast.YYRedPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYRedPoint.app/YYRedPoint";
+			};
+			name = Debug;
+		};
+		8E3D7B001F73978E0077F748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				INFOPLIST_FILE = YYRedPointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcredit.JieLeHua.Fast.YYRedPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYRedPoint.app/YYRedPoint";
+			};
+			name = Release;
+		};
+		8E3D7B021F73978E0077F748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				INFOPLIST_FILE = YYRedPointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcredit.JieLeHua.Fast.YYRedPointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYRedPoint;
+			};
+			name = Debug;
+		};
+		8E3D7B031F73978E0077F748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				INFOPLIST_FILE = YYRedPointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcredit.JieLeHua.Fast.YYRedPointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYRedPoint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E3D7AC91F73978E0077F748 /* Build configuration list for PBXProject "YYRedPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3D7AF91F73978E0077F748 /* Debug */,
+				8E3D7AFA1F73978E0077F748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3D7AFB1F73978E0077F748 /* Build configuration list for PBXNativeTarget "YYRedPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3D7AFC1F73978E0077F748 /* Debug */,
+				8E3D7AFD1F73978E0077F748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E3D7AFE1F73978E0077F748 /* Build configuration list for PBXNativeTarget "YYRedPointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3D7AFF1F73978E0077F748 /* Debug */,
+				8E3D7B001F73978E0077F748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E3D7B011F73978E0077F748 /* Build configuration list for PBXNativeTarget "YYRedPointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3D7B021F73978E0077F748 /* Debug */,
+				8E3D7B031F73978E0077F748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E3D7AC61F73978E0077F748 /* Project object */;
+}
