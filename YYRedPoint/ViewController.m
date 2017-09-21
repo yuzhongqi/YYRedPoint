@@ -22,13 +22,15 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self setupButton];
     [self setupBarItem];
-    UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"earth"]];
+    UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"shareIcon"]];
+    imageView.layer.cornerRadius = 10;
+    imageView.layer.masksToBounds = YES;
     imageView.frame = CGRectMake(self.view.frame.size.width/2 - 35, 120, 70, 70);
     [self.view addSubview:imageView];
     //小红点
     _smallRedPoint  = [[YYRedPointTool alloc]initSmallPointWithView:imageView];
     [_smallRedPoint increment];
-    [_smallRedPoint moveCircleByX:-50 Y:10]; 
+    [_smallRedPoint moveCircleByX:-45 Y:20];
     [self.view addSubview:imageView];
     //数字红点
     _barPoint = [[YYRedPointTool alloc] initWithBarButtonItem: _barButtonItem];
@@ -58,7 +60,7 @@
     UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(50, 400, 200, 60)];
     button.center = self.view.center;
     [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [button setTitle:@"Increment" forState:UIControlStateNormal];
+    [button setTitle:@"下个界面" forState:UIControlStateNormal];
     [button setBackgroundColor:color];
     button.layer.cornerRadius = 5;
     [button addTarget:self action:@selector(testIncrement) forControlEvents:UIControlEventTouchUpInside];
@@ -75,7 +77,9 @@
 
 -(void)setUptestBtn{
     UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(100, 500, 200, 40)];
-    btn.backgroundColor = [UIColor greenColor];
+    btn.backgroundColor = [UIColor colorWithRed:.15 green:.67 blue:.88 alpha:1];
+    [btn setTitle:@"取消图拍的红点" forState:UIControlStateNormal];
+    btn.layer.cornerRadius = 5;
     [btn addTarget:self action:@selector(cancelSmallPoint) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
